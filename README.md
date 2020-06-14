@@ -2,7 +2,7 @@
 The best use case of Nodejs is its ability to stream content in chunks using pipes . This app is developed to use this feature to create a Media Downloader in Nodejs for downloading Video / Audio files from Youtube . Since downloading from youtube is not allowed, we use the popular youtube-dl as a child process in our application.
 
 # Preview
-![](https://github.com/prajwalx/Nodejs--Youtube.Video.Downloader/tree/master/public/images/ezgif.com-gif-maker.gif)
+![](https://github.com/prajwalx/Nodejs--Youtube.Video.Downloader/blob/master/public/images/ezgif.com-gif-maker.gif)
 
 ## Getting Started
 
