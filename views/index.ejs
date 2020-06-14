@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title><%= title %></title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap.min.css" >
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-52421603-5"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-52421603-5');
+    </script>
+  </head>
+  <body>
+    <div class="container">
+      <!-- For demo purpose -->
+      <div class="row py-5">
+        <div class="col-lg-9 mx-auto text-white text-center">
+          <h1 class="display-4">Youtube Plus</h1>
+          <p class="lead mb-0">Download Video or Music from Youtube.</p>
+        </div>
+      </div>
+      <!-- End -->
+    
+    
+      <div class="row mb-5">
+        <div class="col-lg-8 mx-auto">
+          <h5 class="font-weight-light mb-4 font-italic text-white">Search Video Or paste link</h5>
+          <div class="bg-white p-5 rounded shadow">
+    
+            <!-- Custom rounded search bars with input group -->
+            <form action="javascript:Search()">
+              <div class="p-1 bg-light rounded rounded-pill shadow-sm mb-4">
+                <div class="input-group">
+                  <input type="search"id="search" placeholder="What're you searching for?" aria-describedby="button-addon1" class="form-control border-0 bg-light">
+                  <div class="input-group-append">
+                    <button id="button-addon1" type="submit" class="btn btn-link text-primary"><i class="fa fa-search"></i></button>
+                  </div>
+                </div>
+              </div>
+              
+            </form>
+            <!-- End -->
+    
+          </div>
+        </div>
+      </div>  
+    </div>
+    
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.bundle.min.js"></script>
+    <script src="/javascripts/script.js"></script>
+  </body>
+</html>
